@@ -5,9 +5,9 @@ app = Flask(__name__)
 # CORS(app)
 
 app.config['MYSQL_HOST'] = 'remotemysql.com'
-app.config['MYSQL_USER'] = ''
-app.config['MYSQL_PASSWORD'] = ''
-app.config['MYSQL_DB'] = ''
+app.config['MYSQL_USER'] = 'sPx2OHs21l'
+app.config['MYSQL_PASSWORD'] = 'u03LPNjKD8'
+app.config['MYSQL_DB'] = 'sPx2OHs21l'
 
 mysql = MySQL(app)
 
@@ -165,7 +165,7 @@ def return_json_rec1():
                     },
                 "price": 117,
                 "slug": "four-cheese",
-                "title": "4 сыра"
+                "title": "4 Cheeze"
             },
             "four-meats": {
                 "description": "Meat pizza with tomato sauce, smoked chicken, hunting sausages, salami, tomatoes, parmesan, ham and mozzarella, seasoned with Italian herbs.",
@@ -190,7 +190,7 @@ def return_json_rec1():
                 },
                 "price": 123,
                 "slug": "four-meats",
-                "title": "4 мяса"
+                "title": "4 Meat"
             },
             "four-seasons": {
                 "description": "Pizza, combining 4 different bright flavors. The composition of the filling: chicken, corn, pineapple, squid, mussels, snow crab, bacon, mushrooms, onions, tomatoes, pork and mozare cheese ...",
